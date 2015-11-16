@@ -1,0 +1,15 @@
+This is for monitoring and controlling a BBQ pit using a flue and temperature
+sensor.
+
+This sketch requires some dependencies.
+They were not included, due to licensing concerns, but they can be obtained at the following places.
+http://playground.arduino.cc/ComponentLib/Servo
+http://milesburton.com/index.php?title=Dallas_Temperature_Control_Library
+http://playground.arduino.cc/ComponentLib/Thermistor4
+
+If you are using ino
+These need to be saved in ./lib/ so ino can find them.
+
+Uploading to your nano
+ino build
+ino upload
